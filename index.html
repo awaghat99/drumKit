@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DrumKit challenge</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <h1>Welcome to your virtual Drumkit</h1>
+        <h2>Press any key using your mouse or keyboard</h2>
+        <div class="keypad">
+            <div class="keyButton" id="boomkey">
+                <p>a</p>
+                <p>boom</p>
+                <audio id="boom" src="./sounds/boom.wav"></audio>
+            </div>
+            <div class="keyButton" id="clapkey">
+                <p>s</p>
+                <p>clap</p>
+                <audio id="clap" src="./sounds/clap.wav"></audio>
+            </div>
+            <div class="keyButton" id="hihatkey">
+                <p>d</p>
+                <p>hihat</p>
+                <audio id="hihat" src="./sounds/hihat.wav"></audio>
+            </div>
+            <div class="keyButton" id="kickkey">
+                <p>f</p>
+                <p>kick</p>
+                <audio id="kick" src="./sounds/kick.wav"></audio>
+            </div>
+            <div class="keyButton" id="openhatkey">
+                <p>g</p>
+                <p>openhat</p>
+                <audio id="openhat" src="./sounds/openhat.wav"></audio>
+            </div>
+            <div class="keyButton" id="ridekey">
+                <p>h</p>
+                <p>ride</p>
+                <audio id="ride" src="./sounds/ride.wav"></audio>
+            </div>
+            <div class="keyButton" id="snarekey">
+                <p>j</p>
+                <p>snare</p>
+                <audio id="snare" src="./sounds/snare.wav"></audio>
+            </div>
+            <div class="keyButton" id="tinkkey">
+                <p>k</p>
+                <p>tink</p>
+                <audio id="tink" src="./sounds/tink.wav"></audio>
+            </div>
+            <div class="keyButton" id="tomkey">
+                <p>l</p>
+                <p>tom</p>
+                <audio id="tom" src="./sounds/tom.wav"></audio>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
