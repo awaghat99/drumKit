@@ -34,4 +34,14 @@ p {
     background-color: #193757;
     transition: all ease-in 0.1s;
     border-radius: 10px;
+    box-shadow: 7px 7px 5px #214872;
+}
+
+.keyButton:hover {
+    background-color: #214872;
+}
+
+.keyButton:active {
+    transform: translateY(10px);
+    box-shadow: none;
 }
