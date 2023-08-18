@@ -23,6 +23,8 @@ let tomKey = document.getElementById("tomkey");
 document.addEventListener("keypress", (keyValue) => {
     if (keyValue.key == "a") {
         boomKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        boomKey.style.transform = "translateY(10px)";
+        boomKey.style.boxShadow = "none";
         boom.pause();
         boom.currentTime = 0;
         boom.play();
@@ -31,6 +33,8 @@ document.addEventListener("keypress", (keyValue) => {
         }, 200);
     } else if (keyValue.key == "s") {
         clapKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        clapKey.style.transform = "translateY(10px)";
+        clapKey.style.boxShadow = "none";
         clap.pause();
         clap.currentTime = 0;
         clap.play();
@@ -39,6 +43,8 @@ document.addEventListener("keypress", (keyValue) => {
         }, 200);
     } else if (keyValue.key == "d") {
         hihatKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        hihatKey.style.transform = "translateY(10px)";
+        hihatKey.style.boxShadow = "none";
         hihat.pause();
         hihat.currentTime = 0;
         hihat.play();
@@ -47,6 +53,8 @@ document.addEventListener("keypress", (keyValue) => {
         }, 200);
     } else if (keyValue.key == "f") {
         kickKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        kickKey.style.transform = "translateY(10px)";
+        kickKey.style.boxShadow = "none";
         kick.pause();
         kick.currentTime = 0;
         kick.play();
@@ -55,6 +63,8 @@ document.addEventListener("keypress", (keyValue) => {
         }, 200);
     } else if (keyValue.key == "g") {
         openhatKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        openhatKey.style.transform = "translateY(10px)";
+        openhatKey.style.boxShadow = "none";
         openhat.pause();
         openhat.currentTime = 0;
         openhat.play();
@@ -63,6 +73,8 @@ document.addEventListener("keypress", (keyValue) => {
         }, 200);
     } else if (keyValue.key == "h") {
         rideKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        rideKey.style.transform = "translateY(10px)";
+        rideKey.style.boxShadow = "none";
         ride.pause();
         ride.currentTime = 0;
         ride.play();
@@ -71,6 +83,8 @@ document.addEventListener("keypress", (keyValue) => {
         }, 200);
     } else if (keyValue.key == "j") {
         snareKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        snareKey.style.transform = "translateY(10px)";
+        snareKey.style.boxShadow = "none";
         snare.pause();
         snare.currentTime = 0;
         snare.play();
@@ -79,6 +93,8 @@ document.addEventListener("keypress", (keyValue) => {
         }, 200);
     } else if (keyValue.key == "k") {
         tinkKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        tinkKey.style.transform = "translateY(10px)";
+        tinkKey.style.boxShadow = "none";
         tink.pause();
         tink.currentTime = 0;
         tink.play();
@@ -87,6 +103,8 @@ document.addEventListener("keypress", (keyValue) => {
         }, 200);
     } else if (keyValue.key == "l") {
         tomKey.style.backgroundColor = "rgba(85, 211, 213, 0.7)";
+        tomKey.style.transform = "translateY(10px)";
+        tomKey.style.boxShadow = "none";
         tom.pause();
         tom.currentTime = 0;
         tom.play();
